@@ -74,4 +74,10 @@ router.post("/logout", (req, res) => {
   res.status(204).end();
 });
 
+router.get("", (req, res) => {
+  res.status(204).json({
+    "success": "chal gya bahenchod :)"
+  })
+})
+
 export default router;
