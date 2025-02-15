@@ -74,7 +74,7 @@ router.post("/logout", (req, res) => {
   res.status(204).end();
 });
 
-router.get("", (req, res) => {
+router.get("/check", (req, res) => {
   res.status(204).json({
     "success": "chal gya bahenchod :)"
   })
